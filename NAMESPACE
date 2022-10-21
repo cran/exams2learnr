@@ -1,0 +1,9 @@
+importFrom("exams", "xexams", "make_exercise_transform_html")
+importFrom("knitr", "opts_current")
+importFrom("learnr", "question", "quiz", "answer")
+importFrom("rmarkdown", "pandoc_available", "run")
+
+export(
+  "exams2learnr",
+  "run_quiz"
+)
